@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +92,30 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
+}
+
+.feature-badge {
+  @apply inline-block bg-accent1 text-dark1 font-medium px-4 py-1 rounded-full;
+}
+
+.accent-button {
+  @apply bg-accent1 text-dark1 font-medium px-6 py-3 rounded-md hover:bg-opacity-90 transition-all;
+}
+
+.dark-button {
+  @apply bg-dark1 text-white font-medium px-6 py-3 rounded-md hover:bg-opacity-90 transition-all;
+}
+
+.feature-card {
+  @apply bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all;
+}
+
+.dark-card {
+  @apply bg-dark1 rounded-xl p-6 text-white;
+}
+
+.highlight-text {
+  @apply text-[#84b817] font-semibold;
 }

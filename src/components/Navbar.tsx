@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="py-4 px-6 md:px-12 flex items-center justify-between">
       <div className="flex items-center">
         <Link to="/" className="text-2xl font-bold">
-          Ed<span className="font-extrabold text-[#84b817]">tech</span>
+          Mark<span className="font-extrabold text-[#84b817]">Mate</span>
         </Link>
       </div>
       
@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link to="/students" className="hover:text-gray-600 transition-colors">Students</Link>
         <Link to="/login" className="hover:text-gray-600 transition-colors">Login</Link>
         <Button className="bg-dark1 text-white hover:bg-opacity-80 px-5 py-2 rounded-lg">
-          Get Edtech Free
+          Get MarkMate Free
         </Button>
       </div>
       

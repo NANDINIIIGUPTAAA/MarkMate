@@ -10,14 +10,14 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between mb-12">
         <div className="mb-8 md:mb-0">
           <Link to="/" className="text-2xl font-bold">
-            Grade<span className="font-extrabold">ASSIST</span>
+            Ed<span className="font-extrabold text-[#84b817]">tech</span>
           </Link>
           
           <div className="mt-8">
             <div className="feature-badge bg-accent1 text-black inline-block mb-4">
               Contact us:
             </div>
-            <p className="mb-2">Email: help@gradeassist.com</p>
+            <p className="mb-2">Email: help@edtech.com</p>
             <p className="mb-2">Phone: 9876543210</p>
             <p>
               Address: 1234 Main St<br />
@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
       
       <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
-        <div>© 2025 GradeASSIST. All Rights Reserved.</div>
+        <div>© 2025 Edtech. All Rights Reserved.</div>
         <div className="mt-4 md:mt-0">
           <Link to="/privacy" className="text-gray-400 hover:text-white transition-colors">
             Privacy Policy

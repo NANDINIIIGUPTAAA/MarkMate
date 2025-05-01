@@ -27,12 +27,24 @@ const Hero = () => {
       <div className="w-full md:w-1/2 mt-12 md:mt-0">
         <div className="relative">
           <div className="absolute -top-16 -right-16 w-64 h-64 bg-accent1 rounded-full opacity-20"></div>
-          <div className="relative z-10">
-            <img 
-              src="/lovable-uploads/8f1cf295-5764-45b7-80b6-7365acbe442a.png" 
-              alt="Teacher using GradeASSIST" 
-              className="w-full rounded-lg"
-            />
+          <div className="relative z-10 hero-animation">
+            <div className="animation-container">
+              <div className="floating-docs">
+                <div className="doc doc1"></div>
+                <div className="doc doc2"></div>
+                <div className="doc doc3"></div>
+              </div>
+              <div className="tech-circles">
+                <div className="circle circle1"></div>
+                <div className="circle circle2"></div>
+                <div className="circle circle3"></div>
+              </div>
+              <div className="progress-bars">
+                <div className="bar bar1"><div className="fill"></div></div>
+                <div className="bar bar2"><div className="fill"></div></div>
+                <div className="bar bar3"><div className="fill"></div></div>
+              </div>
+            </div>
           </div>
           <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-accent1 rounded-full opacity-20"></div>
         </div>
